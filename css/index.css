@@ -2,18 +2,52 @@ body {
     background-color: #0A0A0A;
 }
 h1 {
-    font-family: 'PPNeueBit', sans-serif;
-    font-weight: 700;
-    font-size: 52px;
-  }
-
-.login {
-    border-top: 20px;
-    margin: 3% auto 3% auto;
-    max-width: 95%;
-    height: 800px;
-    background-color: #841cde;
+    font-family: 'pp_neuebitbold';
+    font-size: 3rem;
+    color: #5D5D5D;
+    line-height: 85%;
 }
+.sistem-line {
+    border-top: 20px;
+    margin: 1% auto 1% auto;
+    max-width: 98%;
+    height: 740px;
+    background-color: #0A0A0A;
+    /* border: 2px dashed rgba(157, 30, 231, 0.704); */
+}
+.text {
+    padding-top: 30px;
+    color: #efefef;
+    width: 21rem;
+    white-space: nowrap;  /* не переносить текст на другую строку */
+    overflow: hidden; /* скрываем переполнение контентом */
+    animation: printed_text 1.5s steps(29);
+}  
+.text-hide {
+    bottom: 47px;
+    position: relative;
+    font-size: 1rem;
+    padding-top: 30px;
+    color: #efefef00;
+    width: 21rem;
+    border-right: 5px solid #efefef; /* рисуем курсор */
+    animation: cursor 0.2s step-end infinite,
+    printed_text 1.5s steps(29),
+    blink-caret .7s step-end infinite;
+}      
+@keyframes printed_text {
+  from{
+      width: 0;
+  }
+}  
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #efefef }
+}
+
+
+
+
 
 .link {
     border-top: 20px;
@@ -22,8 +56,6 @@ h1 {
     height: 100px;
     background-color: #1cde7a;
 }
-
-
 /* body a:hover{
     color: #5D5D5D;
 }
