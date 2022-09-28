@@ -8,9 +8,8 @@ h1 {
     line-height: 85%;
 }
 .sistem-line {
-    margin: 1% auto 1% auto;
+    margin: 1% auto 0% auto;
     max-width: 98%;
-    height: 740px;
     background-color: #0A0A0A;
     /* border: 2px dashed rgba(157, 30, 231, 0.704); */
 }
@@ -43,47 +42,95 @@ h1 {
   from, to { border-color: transparent }
   50% { border-color: #efefef }
 }
-
-
-
-
-
-.link {
-    border-top: 20px;
-    margin: 3% auto 3% auto;
-    max-width: 95%;
-    height: 100px;
-    background-color: #1cde7a;
+.login {
+    padding-top: -20px;
+    margin: 1% auto 1% auto;
+    max-width: 98%;
+    height: 545px;
+    /* border: 2px dashed rgba(157, 30, 231, 0.704); */
+    opacity: 0;
+    animation: log 2s forwards;
 }
-/* body a:hover{
+@keyframes log {
+    0% {opacity: 0;}
+    99% {opacity: 0; animation-timing-function: ease-in;}
+    100% {opacity: 1; animation-timing-function: ease-in;}
+}
+.window {
+    position: relative;
+    margin: 0 auto;
+    max-width: 40%;
+    z-index: 1;
+}
+.space {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+}
+.cross {
+    position: relative;
+    padding-top: 1.4%;
+    padding-left: 2%;
+    max-width: 9%;
+    z-index: 3;
+}
+.cross-dye:hover{
+    fill: #ED1B24;
+}
+
+
+.form {
+    padding-top: 5%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 4%;
+}
+form div:nth-of-type(1) {
+    padding: 2%;
+}
+form div:nth-of-type(2) {
+    padding: 5%;
+}
+input {
+    padding-left: 5%;
+    font-family: 'pp_neuebitbold'; 
+    font-size: 3rem;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 1px solid #111;
+}
+input:hover {
+    outline: 3px solid #5D5D5D;
+}
+input:focus {
+    color: #efefef;
+    background-color: #0A0A0A;
+    outline: 3px solid #efefef;
+}
+button { 
+    box-sizing: border-box; 
+    font-size: 4rem;
+    color: #efefef;
+    font-family: 'pp_neuebitbold'; 
+    outline: 2px solid #efefef;
+    background-color: #131313;
+}
+button:hover {
+    background-color: #efefef;
+    outline: 2px solid #0A0A0A;
+    color: #0A0A0A;
+}
+button:acrtive {
+    background-color: #efefef;
+    outline: 2px solid #0A0A0A;
     color: #5D5D5D;
 }
-body h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 390%;
-    margin-bottom: -1rem;
-    max-width: 50%;
-    margin-right: 0;
-}
-body h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 1.3rem;
-    margin-top: -1rem; 
-    max-width: 90%;
-    margin-bottom: 2rem;
-}
-.header {
-    margin: 0 auto;
-    max-width: 99%;
-}
-.item {
-    margin: 0 auto;
-    padding-right: 10px;
-    max-width: 97.7%;
-}
-.footer {
-    margin: 0 auto;
-    max-width: 98%;
-} */
+
+
