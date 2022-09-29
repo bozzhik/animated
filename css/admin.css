@@ -1,13 +1,86 @@
 body {
     background-color: #0A0A0A;
+    /* background-color: #ECECEC; */
 }
 .workspace {
-    border-top: 20px;
-    margin: 3% auto 3% auto;
-    max-width: 95%;
+    margin: 2% auto 2% auto;
+    max-width: 97%;
     height: 3000px;
-    background-color: #de841c;
+    /* background-color: #de841c; */
+    border: 2px dashed rgba(157, 30, 231, 0.704);
 }
+.block-flex {
+    display: grid;
+    grid-template-columns: 60% 39%;
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-template-areas: "wait logo"
+                         "wait boot";
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+/* .block-flex div {
+    border: 2px dashed rgb(109, 167, 21);
+} */
+.wait {
+    grid-area: wait;}
+.logo {
+    grid-area: logo;}
+.boot {
+    grid-area: boot;}
+
+.wait-anim {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+}
+.wait {
+    position: relative;
+    z-index: 1;
+}
+.logo-anim {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+}
+.logo {
+    position: relative;
+    z-index: 1;
+}
+.boot-anim {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+}
+.boot {
+    position: relative;
+    z-index: 1;
+}
+
+.block2-flex {
+    padding-top: 22%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1, 100%);
+    grid-template-areas: "prog program";
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+.block2-flex div {
+    padding: 50px;
+    border: 2px dashed rgb(21, 167, 140);
+}
+.prog {
+    grid-area: prog;}
+.program {
+    grid-area: program;}
+
+
 
 .link {
     padding: 20px;
