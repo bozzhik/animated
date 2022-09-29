@@ -30,6 +30,9 @@
     border-right: 1px solid #efefef;}
     /* body {background-color: #14d390} */
 }
+@media (max-width: 240px) {
+    html { font-size: 4px; }
+}
 
 /* form adaptive */
 
@@ -58,7 +61,7 @@
     .window {max-width: 55%;}
     input {font-size: 2.5rem;}
     button {font-size: 4.5rem;}
-    .login {padding-top: 7%;}
+    .login {margin-top: 5%;}
 }
 @media (max-width: 640px) {
     .window {max-width: 55%;}
@@ -76,6 +79,7 @@
     input {font-size: 2rem;}
     button {font-size: 3.5rem;}
     form div:nth-of-type(2) {padding: 7%;}
+    .login {margin-top: 10%;}
 }
 @media (max-width: 420px) {
     .window {max-width: 80%;}
@@ -94,16 +98,17 @@
     input {font-size: 3rem;}
     button {font-size: 4rem;}
     form div:nth-of-type(2) {padding: 4%;}
+    .login {margin-top: 10%;}
 }
 @media (max-width: 280px) {
     .window {max-width: 80%;}
     input {font-size: 2rem;}
-    button {font-size: 3rem;}
+    button {font-size: 4rem;}
     form div:nth-of-type(2) {padding: 4%;}
 }
-@media (max-width: 280px) {
+@media (max-width: 240px) {
     .window {max-width: 80%;}
-    input {font-size: 1.5rem;}
-    button {font-size: 2.5rem;}
+    input {font-size: 2rem;}
+    button {font-size: 4rem;}
     form div:nth-of-type(2) {padding: 4%;}
 }
