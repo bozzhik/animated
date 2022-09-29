@@ -1,26 +1,12 @@
 @media (max-width: 1920px) {
     html { font-size: 16px; }
+    button {font-size: 5rem; }
     /* body {background-color: #269494;} */
 }
 @media (max-width: 1440px) {
-    .window {max-width: 45%;}
-    form div:nth-of-type(1) {padding: 2%;}
-    form div:nth-of-type(2) {padding: 5%;}
-}
-@media (max-width: 1366px) {
     html { font-size: 13px;}
     .text-hide {bottom: 40px; font-size: 0.7rem;
     border-right: 4px solid #efefef;}
-    @media (max-width: 1440px) {
-        .window {max-width: 45%;}
-        form div:nth-of-type(1) {padding: 3%;}
-        form div:nth-of-type(2) {padding: 6%;}
-    }
-}
-@media (max-width: 1070px) {
-    .window {max-width: 50%;}
-    form div:nth-of-type(1) {padding: 2%;}
-    form div:nth-of-type(2) {padding: 5%;}
 }
 @media (max-width: 768px) {
     html { font-size: 10px; }
@@ -28,13 +14,6 @@
     .text-hide {bottom: 36px; font-size: 0.3rem;
     border-right: 3px solid #efefef;}
     /* body {background-color: #ff6600;} */
-}
-@media (max-width: 620px) {
-    html { font-size: 7px; }
-    .text {padding-top: 20px;}
-    .text-hide {bottom: 25px; font-size: 0.1rem;
-    border-right: 2px solid #efefef;}
-    /* body {background-color: #ff001e;} */
 }
 @media (max-width: 420px) {
     html { font-size: 6px; }
@@ -50,4 +29,81 @@
     .text-hide {bottom: 25px; font-size: 0.1rem;
     border-right: 1px solid #efefef;}
     /* body {background-color: #14d390} */
+}
+
+/* form adaptive */
+
+@media (max-width: 1440px) {
+    .window {max-width: 40%;}
+    input {font-size: 3rem;}
+    button {font-size: 5rem;}
+    form div:nth-of-type(2) {padding: 5%;}
+}
+
+@media (max-width: 1550px) {
+    form div:nth-of-type(2) {padding: 3%;}
+}
+@media (max-width: 1200px) {
+    .window {max-width: 50%;}
+    input {font-size: 3rem;}
+    button {font-size: 5rem;}
+    form div:nth-of-type(2) {padding: 5%;}
+}
+@media (max-width: 1024px) {
+    .window {max-width: 55%;}
+    input {font-size: 2.5rem;}
+    button {font-size: 5rem;}
+}
+@media (max-width: 870px) {
+    .window {max-width: 55%;}
+    input {font-size: 2.5rem;}
+    button {font-size: 4.5rem;}
+    .login {padding-top: 7%;}
+}
+@media (max-width: 640px) {
+    .window {max-width: 55%;}
+    input {font-size: 2rem;}
+    button {font-size: 3.5rem;}
+}
+@media (max-width: 520px) {
+    .window {max-width: 70%;}
+    input {font-size: 2rem;}
+    button {font-size: 3.5rem;}
+    form div:nth-of-type(2) {padding: 6%;}
+}
+@media (max-width: 450px) {
+    .window {max-width: 70%;}
+    input {font-size: 2rem;}
+    button {font-size: 3.5rem;}
+    form div:nth-of-type(2) {padding: 7%;}
+}
+@media (max-width: 420px) {
+    .window {max-width: 80%;}
+    input {font-size: 3rem;}
+    button {font-size: 5rem;}
+    form div:nth-of-type(2) {padding: 7%;}
+}
+@media (max-width: 350px) {
+    .window {max-width: 80%;}
+    input {font-size: 3rem;}
+    button {font-size: 5rem;}
+    form div:nth-of-type(2) {padding: 4%;}
+}
+@media (max-width: 310px) {
+    .window {max-width: 80%;}
+    input {font-size: 3rem;}
+    button {font-size: 4rem;}
+    form div:nth-of-type(2) {padding: 4%;}
+}
+@media (max-width: 280px) {
+    .window {max-width: 80%;}
+    input {font-size: 2rem;}
+    button {font-size: 3rem;}
+    form div:nth-of-type(2) {padding: 4%;}
+}
+@media (max-width: 280px) {
+    .window {max-width: 80%;}
+    input {font-size: 1.5rem;}
+    button {font-size: 2.5rem;}
+    form div:nth-of-type(2) {padding: 4%;}
 }

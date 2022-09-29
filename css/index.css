@@ -79,8 +79,6 @@ h1 {
 .cross-dye:hover{
     fill: #ED1B24;
 }
-
-
 .form {
     padding-top: 5%;
 }
@@ -116,7 +114,7 @@ input:focus {
 }
 button { 
     box-sizing: border-box; 
-    font-size: 4rem;
+    font-size: 5rem;
     color: #efefef;
     font-family: 'pp_neuebitbold'; 
     outline: 2px solid #efefef;
@@ -132,5 +130,3 @@ button:acrtive {
     outline: 2px solid #0A0A0A;
     color: #5D5D5D;
 }
-
-
