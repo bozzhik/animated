@@ -59,6 +59,7 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
+    h3 {font-size: 4.5rem;}
 
     /* body {background-color: #e33131;} */
 }
@@ -188,6 +189,7 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
+    h3 {font-size: 3.7rem;}
 
     body {background-color: #ba22b3;}
 }
@@ -252,6 +254,7 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
+    h3 {font-size: 2.9rem;}
 
     body {background-color: #ff6600;}
 }
@@ -316,6 +319,8 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
+    h3 {font-size: 2.5rem;}
+
 
     body {background-color: #c9d314}
 }
@@ -380,6 +385,8 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
+    h3 {font-size: 2.2rem;} 
 
+    
     body {background-color: #ad14d3}
 }
