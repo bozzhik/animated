@@ -1,28 +1,220 @@
 @media (max-width: 1920px) {
     html { font-size: 16px; }
-    
-    body {background-color: #269494;}
+    .logo {padding-bottom: 7%;}
+    .windows-text {
+        font-size: 17rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important; 
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 18.5%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 2%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 18.5%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 99%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+
+
+    body {background-color: #e33131;}
 }
-@media (max-width: 1440px) {
+@media (max-width: 1536px) {
+    html { font-size: 16px; }
+    .logo {padding-bottom: 5%;}
+    .windows-text {
+        font-size: 13rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important; 
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 1.5%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 22%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 1.5%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 22%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 100%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+
+
+    body {background-color: #65a921;}
+}
+@media (max-width: 1366px) {
     html { font-size: 13px;}
-    
-    body {background-color: #269441;}
+    .logo {padding-bottom: 5.5%;}
+    .windows-text {
+        font-size: 16rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important; 
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 12.5%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 1.5%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 12.5%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 97%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+
+
+    body {background-color: #ba22b3;}
 }
 @media (max-width: 768px) {
     html { font-size: 10px; }
+    .logo {padding-bottom: 2.7%;}
+    .windows-text {
+        font-size: 11.5rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important; 
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -2%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 13%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 2%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 13%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 97%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+
 
     body {background-color: #ff6600;}
 }
-@media (max-width: 440px) {
+@media (max-width: 414px) {
     html { font-size: 6px; }
+    .logo {padding-bottom: 0%;}
+    .windows-text {
+        font-size: 10rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important; 
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 15.5%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 2%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 15.5%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 98%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
 
-    body {background-color: #add314}
+    body {background-color: #c9d314}
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
     html { font-size: 6px; }
+    .logo {padding-bottom: 0%;}
+    .windows-text {
+        font-size: 8.5rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important; 
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 17%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 2%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 17%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 98%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
 
-    body {background-color: #14d390}
-}
-@media (max-width: 240px) {
-    html { font-size: 4px; }
+    body {background-color: #ad14d3}
 }
