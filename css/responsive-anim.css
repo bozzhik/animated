@@ -31,9 +31,36 @@
             animation-timing-function: ease-in;
         }
     }
+    .usb-logo {
+        width: 229px;
+        height: 181px;
+        scale: 1.5;
+        margin: 0 auto;
+        margin-top: 24.5%;
+        animation: logo 3s steps(1) infinite;
+        animation-play-state: paused;
+    }
+    .usb-logo:hover {
+        animation-play-state: running;
+    }
+    .usb-logo:active {
+        scale: 1.6;
+    }
+    @keyframes logo {
+        0% {background-image: url('../img/logo2.svg');}
+        10% {background-image: url('../img/logo1.svg');}
+        20% {background-image: url('../img/logo3.svg');}
+        30% {background-image: url('../img/logo4.svg');}
+        40% {background-image: url('../img/logo5.svg');}
+        50% {background-image: url('../img/logo6.svg');}
+        60% {background-image: url('../img/logo7.svg');}
+        70% {background-image: url('../img/logo8.svg');}
+        80% {background-image: url('../img/logo9.svg');}
+        90% {background-image: url('../img/logo10.svg');}
+        100% {background-image: url('../img/logo11.svg');}
+      }
 
-
-    body {background-color: #e33131;}
+    /* body {background-color: #e33131;} */
 }
 @media (max-width: 1536px) {
     html { font-size: 16px; }
@@ -48,7 +75,7 @@
     }
     @keyframes wallpaper {
         0% {color: #2030d8;
-            margin-top: -1.5%; margin-left: 1.5%;
+            margin-top: -1.5%; margin-left: 2%;
             animation-timing-function: ease-in;
             }
         25% {color: #ff6600;
@@ -56,7 +83,7 @@
             animation-timing-function: ease-in;
         }
         50% {color: #1BED6F;
-            margin-top: 50%; margin-left: 1.5%;
+            margin-top: 50%; margin-left: 2%;
             animation-timing-function: ease-in;
         }
         75% {color: #ba22b3;
@@ -64,13 +91,13 @@
             animation-timing-function: ease-in;
         }
         100% {color: #e33131;
-            margin-top: 100%; margin-left: 10%;
+            margin-top: 99%; margin-left: 10%;
             animation-timing-function: ease-in;
         }
     }
 
 
-    body {background-color: #65a921;}
+    /* body {background-color: #65a921;} */
 }
 @media (max-width: 1366px) {
     html { font-size: 13px;}

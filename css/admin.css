@@ -13,7 +13,7 @@ h2 {
     max-width: 97%;
     height: 3000px;
     /* background-color: #de841c; */
-    border: 2px dashed rgba(157, 30, 231, 0.704);
+    /* border: 2px dashed rgba(157, 30, 231, 0.704); */
 }
 .block-flex {
     display: grid;
@@ -78,7 +78,7 @@ h2 {
 }
 .block2-flex div {
     padding: 50px;
-    border: 2px dashed rgb(21, 167, 140);
+    /* border: 2px dashed rgb(21, 167, 140); */
 }
 .prog {
     grid-area: prog;
