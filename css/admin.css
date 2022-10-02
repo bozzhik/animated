@@ -90,45 +90,42 @@ h2 {
 
 
 .wait-anim h2 {
-    margin-left: 3%;
+    margin-top: -1.5%;
+    margin-left: 1.5%;
 }
 .windows-text {
-    animation: wallpaper 2s infinite alternate;
+    animation: wallpaper 5s infinite alternate;
 }
 .windows-text:hover {
     animation-play-state: paused;
 }
-
-
 @keyframes wallpaper {
-    0% {transform: translate(50px, 40px);
+    0% {transform: translate(0px, 0px);
         animation-timing-function: ease-in;
         }
-    50% {transform: (50px, 50px, 0px);
-        animation-timing-function: ease-out;
-        }
-    100% {transform: (50px, 40px, 0px);
-        }
+    20% {
+        transform: translate(280px, 200px);
+        animation-timing-function: ease-in;
     }
-
-
-
-
-
-.link {
-    padding: 20px;
-    background-color: #63145a;
+    40% {
+        transform: translate(0px, 380px);
+        animation-timing-function: ease-in;
+    }
+    60% {
+        transform: translate(280px, 700px);
+        animation-timing-function: ease-in;
+    }
+    80% {
+        transform: translate(0px, 840px);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translate(200px, 910px);
+        animation-timing-function: ease-in;
+    }
 }
 
-.wait-anim h2 {
-    margin-left: 3%;
-}
-.windows-text {
-    animation: wallpaper 10s infinite alternate;
-}
-.windows-text:hover {
-    animation-play-state: paused;
-}
+
 
 /* @keyframes wallpaper {
     0% {transform: translate(50px, 40px);
@@ -148,4 +145,12 @@ h2 {
         }
     100% {transform: (50px, 40px, 0px);
         }
+
+        alternate
     } */
+
+    
+.link {
+    padding: 20px;
+    background-color: #63145a;
+}
