@@ -59,7 +59,6 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
-    h3 {font-size: 4.5rem;}
 
     body {background-color: #e33131;}
 }
@@ -126,7 +125,7 @@
       }
 
 
-    body {background-color: #65a921;}
+    body {background-color: #505d44;}
 }
 @media (max-width: 1367px) {
     html { font-size: 13px;}
