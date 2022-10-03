@@ -13,7 +13,7 @@ h3 {
     color: #efefef;
 }
 .workspace {
-    margin: 2% auto 2% auto;
+    margin: 1.6% auto 2% auto;
     max-width: 97%;
     height: 3000px;
     /* background-color: #de841c; */
@@ -87,6 +87,15 @@ h3 {
     color:#efefef;
     margin: 12% 0 0 4.5%;
     padding-bottom: 100%;
+}
+.info-svg:hover .user-text {
+    color: #5D5D5D;
+}
+.info-svg:hover .user-logo {
+    color: #efefef;
+}
+.info-svg:hover .user-id {
+    color: #efefef;
 }
 .item-img {
     grid-area: img;

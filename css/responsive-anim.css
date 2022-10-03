@@ -7,7 +7,8 @@
     }
     .windows-text:hover {
         animation-play-state: paused;
-        color: #5D5D5D !important; 
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
     }
     @keyframes wallpaper {
         0% {color: #2030d8;
@@ -59,6 +60,23 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
+    .user-text {
+        font-size: 3.7rem;
+        line-height: 75%;
+        color:#efefef;
+        margin: 12% 0 0 4.5%;
+        padding-bottom: 100%;
+    }
+    .user-logo {
+        max-width: 58%;
+        margin: 53% 0 0 10%;
+    }
+    .user-id {
+        font-size: 10rem;
+        line-height: 75%;
+        color:#efefef;
+        margin: 34% 0 0 4%;
+    }
 
     body {background-color: #e33131;}
 }
@@ -71,7 +89,8 @@
     }
     .windows-text:hover {
         animation-play-state: paused;
-        color: #5D5D5D !important; 
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
     }
     @keyframes wallpaper {
         0% {color: #2030d8;
@@ -125,7 +144,7 @@
       }
 
 
-    body {background-color: #505d44;}
+    body {background-color: #0A0A0A;}
 }
 @media (max-width: 1367px) {
     html { font-size: 13px;}
@@ -136,7 +155,8 @@
     }
     .windows-text:hover {
         animation-play-state: paused;
-        color: #5D5D5D !important; 
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
     }
     @keyframes wallpaper {
         0% {color: #2030d8;
@@ -201,7 +221,8 @@
     }
     .windows-text:hover {
         animation-play-state: paused;
-        color: #5D5D5D !important; 
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
     }
     @keyframes wallpaper {
         0% {color: #2030d8;
@@ -263,7 +284,8 @@
     }
     .windows-text:hover {
         animation-play-state: paused;
-        color: #5D5D5D !important; 
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
     }
     @keyframes wallpaper {
         0% {color: #2030d8;
@@ -326,7 +348,8 @@
     }
     .windows-text:hover {
         animation-play-state: paused;
-        color: #5D5D5D !important; 
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
     }
     @keyframes wallpaper {
         0% {color: #2030d8;
