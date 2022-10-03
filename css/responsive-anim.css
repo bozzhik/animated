@@ -99,7 +99,7 @@
     .usb-logo {
         width: 229px;
         height: 181px;
-        transform: scale(0.85);
+        transform: scale(1.55);
         margin: 0 auto;
         margin-top: 24.5%;
         animation: logo 3s steps(1) infinite;
@@ -109,7 +109,7 @@
         animation-play-state: running;
     }
     .usb-logo:active {
-        transform: scale(0.9);
+        transform: scale(1.6);
     }
     @keyframes logo {
         0% {background-image: url('../img/logo2.svg');}
@@ -126,7 +126,7 @@
       }
 
 
-    /* body {background-color: #65a921;} */
+    body {background-color: #65a921;}
 }
 @media (max-width: 1367px) {
     html { font-size: 13px;}
@@ -164,7 +164,7 @@
     .usb-logo {
         width: 229px;
         height: 181px;
-        transform: scale(0.9);
+        transform: scale(1.35);
         margin: 0 auto;
         margin-top: 22.3%;
         animation: logo 3s steps(1) infinite;
@@ -174,7 +174,7 @@
         animation-play-state: running;
     }
     .usb-logo:active {
-        transform: scale(0.95);
+        transform: scale(1.4);
     }
     @keyframes logo {
         0% {background-image: url('../img/logo2.svg');}
@@ -229,7 +229,7 @@
     .usb-logo {
         width: 229px;
         height: 181px;
-        transform: scale(0.55);
+        transform: scale(0.77);
         margin: 0 auto;
         margin-top: 9%;
         animation: logo 3s steps(1) infinite;
@@ -237,9 +237,6 @@
     }
     .usb-logo:hover {
         animation-play-state: running;
-    }
-    .usb-logo:active {
-        transform: scale(0.6);
     }
     @keyframes logo {
         0% {background-image: url('../img/logo2.svg');}
@@ -294,7 +291,7 @@
     .usb-logo {
         width: 229px;
         height: 181px;
-        transform: scale(0.5);
+        transform: scale(0.43);
         margin-left: -23%;
         margin-top: -17.5%;
         animation: logo 3s steps(1) infinite;
