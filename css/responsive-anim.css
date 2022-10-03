@@ -357,7 +357,7 @@
     .usb-logo {
         width: 229px;
         height: 181px;
-        transform: scale(0.9);
+        transform: scale(0.37);
         margin-left: -34%;
         margin-top: -26.5%;
         animation: logo 3s steps(1) infinite;
