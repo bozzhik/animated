@@ -1,10 +1,7 @@
 @media (max-width: 1920px) {
     html { font-size: 16px; }
     .logo {padding-bottom: 7%;}
-    .windows-text {
-        font-size: 17rem;
-        animation: wallpaper 3s infinite alternate;
-    }
+    .windows-text {font-size: 17rem; animation: wallpaper 3s infinite alternate;}
     .windows-text:hover {
         animation-play-state: paused;
         color: #5D5D5D !important;
@@ -41,12 +38,8 @@
         animation: logo 3s steps(1) infinite;
         animation-play-state: paused;
     }
-    .usb-logo:hover {
-        animation-play-state: running;
-    }
-    .usb-logo:active {
-        transform: scale(1.95);
-    }
+    .usb-logo:hover {animation-play-state: running;}
+    .usb-logo:active {transform: scale(1.95);}
     @keyframes logo {
         0% {background-image: url('../img/logo2.svg');}
         10% {background-image: url('../img/logo1.svg');}
@@ -60,23 +53,11 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
-    .user-text {
-        font-size: 3.7rem;
-        line-height: 75%;
-        color:#efefef;
-        margin: 12% 0 0 4.5%;
-        padding-bottom: 100%;
-    }
-    .user-logo {
-        max-width: 58%;
-        margin: 53% 0 0 10%;
-    }
-    .user-id {
-        font-size: 10rem;
-        line-height: 75%;
-        color:#efefef;
-        margin: 34% 0 0 4%;
-    }
+    .info-grid {max-width: 96%;}
+    .user-text {font-size: 3.7rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 55% 0 0 10%;}
+    .user-id {text-align: center; margin: 18% -4% 0 0; font-size: 12.5rem; }
+
 
     body {background-color: #e33131;}
 }
@@ -142,7 +123,10 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
-
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 3.7rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 45% 0 0 10%;}
+    .user-id {text-align: center; margin: 12% 0% 0 -1%; font-size: 10rem; }
 
     body {background-color: #0A0A0A;}
 }
@@ -208,7 +192,10 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
-    h3 {font-size: 3.7rem;}
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 4rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 45% 0 0 10%;}
+    .user-id {text-align: center; margin: 10% 0% 0 -6%; font-size: 11.5rem; }
 
     body {background-color: #ba22b3;}
 }
@@ -271,7 +258,10 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
-    h3 {font-size: 2.9rem;}
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 3rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 43% 0 0 10%;}
+    .user-id {text-align: center; margin: 13% 0% 0 1%; font-size: 7.5rem; }
 
     body {background-color: #ff6600;}
 }
@@ -334,7 +324,10 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
-    h3 {font-size: 2.5rem;}
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 2.5rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 45% 0 0 10%;}
+    .user-id {text-align: center; margin: 10% 0% 0 -4%; font-size: 7rem; }
 
 
     body {background-color: #c9d314}
@@ -398,7 +391,10 @@
         90% {background-image: url('../img/logo10.svg');}
         100% {background-image: url('../img/logo11.svg');}
       }
-    h3 {font-size: 2.2rem;} 
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 2.5rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 38% 0 0 8%;}
+    .user-id {text-align: center; margin: 7% 0% 0 -5%; font-size: 6rem; }
 
     
     body {background-color: #ad14d3}
