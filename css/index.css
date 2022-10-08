@@ -111,7 +111,7 @@ input:focus {
     background-color: #0A0A0A;
     outline: 3px solid #efefef;
 }
-button { 
+.button-login { 
     box-sizing: border-box; 
     font-size: 5rem;
     color: #efefef;
@@ -119,13 +119,13 @@ button {
     outline: 2px solid #efefef;
     background-color: #131313;
 }
-button:hover {
+.button-login:hover {
     background-color: #efefef;
     outline: 2px solid #0A0A0A;
     color: #0A0A0A;
 }
-button:acrtive {
-    background-color: #efefef;
-    outline: 2px solid #0A0A0A;
-    color: #5D5D5D;
+.button-login:active {
+    outline: 2px solid #efefef;
+    background-color: #131313;
+    color: #efefef;
 }
