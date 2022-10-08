@@ -115,25 +115,73 @@ h3 {
     margin: 34% 0% 0 4;}
 
 
-
 .block-grid2 {
     margin-top: -0.7%;
     display: grid;
     grid-template-columns: 49.5% 49.5%;
     grid-template-rows: repeat(1, 100%);
-    grid-template-areas: "file virus";
+    grid-template-areas: "console log";
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
 }
-/* .block-grid2 div {
-    border: 2px dashed rgb(21, 167, 140);
-} */
-.file {
-    grid-area: file;
+.console {
+    grid-area: console;
 }
-.virus {
-    grid-area: virus;
+.log {
+    grid-area: log;
 }
+.console-anim {
+    position: relative;
+}
+.console-line {
+    position: absolute;
+    padding-top: 11%;
+    left: 4%;
+}
+.text-line {
+    padding-top: 7%;
+    color: #efefef;
+    width: 21rem;
+    white-space: nowrap;  /* не переносить текст на другую строку */
+    overflow: hidden; /* скрываем переполнение контентом */
+    animation: printed_text 1.5s steps(29);
+}
+.text-line-hide {
+    bottom: 46px;
+    position: relative;
+    padding-top: 35px;
+    color: #efefef00;
+    width: 21rem;
+    font-size: 1rem;
+    border-right: 5px solid #efefef; /* рисуем курсор */
+    animation: cursor 0.2s step-end infinite,
+    printed_text 1.5s steps(29),
+    blink-caret .7s step-end infinite;
+}      
+@keyframes printed_text {
+  from{
+      width: 0;
+  }
+}  
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #efefef }
+}
+
+
+
+.log-anim {
+    position: relative;
+}
+.log-line {
+    position: absolute;
+    padding-top: 11%;
+    left: 4%;
+}
+
+
+
+
 .block-grid3 {
     padding-top: 1.3%;
 }
