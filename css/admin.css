@@ -191,17 +191,13 @@ h3 {
 .cross-border {
     fill: #ececec;
 }
-.block-grid2 :hover .log-svg {
-    opacity: 0.333;
+.block-grid2 .log-item {
+    animation: loading 1s linear infinite;
 }
 .block-grid2 :hover .log-item {
-    animation: appearance 0.5s, loading 1s linear infinite;
+    animation-play-state: paused;
 }
-@keyframes appearance {
-    0%{opacity: 0;}
-    100%{opacity: 100;}
-
-}   
+ 
 @keyframes loading {
     0%{transform:rotate(0deg);}
     100%{transform:rotate(180deg);}
