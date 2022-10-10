@@ -1,6 +1,5 @@
 body {
-    background-color: #8c3b9a;
-    /* background-color: #ECECEC; */
+    background-color: #0A0A0A;
 }
 h2 {
     font-family: 'pp_neuebitbold';
@@ -204,7 +203,7 @@ h3 {
     100%{transform:rotate(180deg);}
 }
 .cancel {
-    margin: 2% 46%;
+    margin: 2% 42%;
     padding-bottom: 2%;
 }
 .button-cancel {
@@ -244,8 +243,9 @@ h3 {
     max-width: 98%;
 }
 .items-move {
-    margin-top: 1%;
-    margin-left: 1%;
+    margin-top: 0.8%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     margin-bottom: 1%;
     padding-bottom: 4%;
     clip-path: inset(0 0 0 0 round 4px);
@@ -256,17 +256,25 @@ h3 {
     transform: scale(1.4);
     margin-left: 13%;
     margin-top: 4.5%;
-    animation: items-move 7s linear infinite alternate;
+    animation: items-move 10s linear infinite;
     animation-play-state: running;
 }
-.items :hover {
+.items:hover {
     animation-play-state: paused;
-}
+  }
 @keyframes items-move {
-    0% {left: 1700px;}
-    100% {left: -1300px;}
+    0% {left: 2000px;}
+    100% {left: -4000px;}
 }
-
-.path1:hover {
+.exe-item:hover {
+    fill: #ED1B24;
+}
+.config-item:hover {
+    fill: #1BED6F;
+}
+.icon-item:hover {
+    fill: #911BED;
+}
+.sys-item:hover {
     fill: #FFED46;
 }
