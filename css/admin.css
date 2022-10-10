@@ -203,10 +203,12 @@ h3 {
     100%{transform:rotate(180deg);}
 }
 .cancel {
-    margin: 2% 42%;
+    margin: 2% 40%;
     padding-bottom: 2%;
 }
 .button-cancel {
+    margin-right: 2%;
+    width: 300px;
     box-sizing: border-box; 
     font-size: 5rem;
     font-family: 'pp_neuebitbold'; 
