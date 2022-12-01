@@ -1,0 +1,445 @@
+@media (max-width: 1920px) {
+    html { font-size: 16px; }
+    .logo {padding-bottom: 7%;}
+    .windows-text {font-size: 17rem; animation: wallpaper 3s infinite alternate;}
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 18.5%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 2%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 18.5%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 99%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+    .usb-logo {
+        width: 229px;
+        height: 181px;
+        transform: scale(1.9);
+        margin: 0 auto;
+        margin-top: 27.5%;
+        animation: logo 3s steps(1) infinite;
+        animation-play-state: paused;
+    }
+    .usb-logo:hover {animation-play-state: running;}
+    .usb-logo:active {transform: scale(1.95);}
+    @keyframes logo {
+        0% {background-image: url('../img/logo2.svg');}
+        10% {background-image: url('../img/logo1.svg');}
+        20% {background-image: url('../img/logo3.svg');}
+        30% {background-image: url('../img/logo4.svg');}
+        40% {background-image: url('../img/logo5.svg');}
+        50% {background-image: url('../img/logo6.svg');}
+        60% {background-image: url('../img/logo7.svg');}
+        70% {background-image: url('../img/logo8.svg');}
+        80% {background-image: url('../img/logo9.svg');}
+        90% {background-image: url('../img/logo10.svg');}
+        100% {background-image: url('../img/logo11.svg');}
+      }
+    .info-grid {max-width: 96%;}
+    .user-text {font-size: 3.7rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 55% 0 0 10%;}
+    .user-id {text-align: center; margin: 18% -4% 0 0; font-size: 12.5rem; }
+    .cancel {margin: 2% 42%;}
+
+
+    /* body {background-color: #e33131;} */
+}
+@media (max-width: 1536px) {
+    html { font-size: 16px; }
+    .logo {padding-bottom: 5%;}
+    .windows-text {
+        font-size: 13rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 22%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 2%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 22%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 99%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+    .usb-logo {
+        width: 229px;
+        height: 181px;
+        transform: scale(1.55);
+        margin: 0 auto;
+        margin-top: 24.5%;
+        animation: logo 3s steps(1) infinite;
+        animation-play-state: paused;
+    }
+    .usb-logo:hover {
+        animation-play-state: running;
+    }
+    .usb-logo:active {
+        transform: scale(1.6);
+    }
+    @keyframes logo {
+        0% {background-image: url('../img/logo2.svg');}
+        10% {background-image: url('../img/logo1.svg');}
+        20% {background-image: url('../img/logo3.svg');}
+        30% {background-image: url('../img/logo4.svg');}
+        40% {background-image: url('../img/logo5.svg');}
+        50% {background-image: url('../img/logo6.svg');}
+        60% {background-image: url('../img/logo7.svg');}
+        70% {background-image: url('../img/logo8.svg');}
+        80% {background-image: url('../img/logo9.svg');}
+        90% {background-image: url('../img/logo10.svg');}
+        100% {background-image: url('../img/logo11.svg');}
+      }
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 3.7rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 45% 0 0 10%;}
+    .user-id {text-align: center; margin: 12% 0% 0 -1%; font-size: 10rem; }
+
+
+    /* body {background-color: #8c3b9a;} */
+}
+@media (max-width: 1367px) {
+    html { font-size: 13px;}
+    .logo {padding-bottom: 5.5%;}
+    .windows-text {
+        font-size: 16rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 12.5%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 1.5%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 12.5%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 97%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+    .usb-logo {
+        width: 229px;
+        height: 181px;
+        transform: scale(1.35);
+        margin: 0 auto;
+        margin-top: 22.3%;
+        animation: logo 3s steps(1) infinite;
+        animation-play-state: paused;
+    }
+    .usb-logo:hover {
+        animation-play-state: running;
+    }
+    .usb-logo:active {
+        transform: scale(1.4);
+    }
+    @keyframes logo {
+        0% {background-image: url('../img/logo2.svg');}
+        10% {background-image: url('../img/logo1.svg');}
+        20% {background-image: url('../img/logo3.svg');}
+        30% {background-image: url('../img/logo4.svg');}
+        40% {background-image: url('../img/logo5.svg');}
+        50% {background-image: url('../img/logo6.svg');}
+        60% {background-image: url('../img/logo7.svg');}
+        70% {background-image: url('../img/logo8.svg');}
+        80% {background-image: url('../img/logo9.svg');}
+        90% {background-image: url('../img/logo10.svg');}
+        100% {background-image: url('../img/logo11.svg');}
+      }
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 4rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 45% 0 0 10%;}
+    .user-id {text-align: center; margin: 10% 0% 0 -6%; font-size: 11.5rem; }
+    .workspace {height: 2000px;}
+    .items {transform: scale(1.2); margin-top: 3.5%;}
+    .cancel {margin: 2% 40%;}
+    .button-cancel {width: 300px;}
+
+    /* body {background-color: #ba22b3;} */
+}
+@media (max-width: 768px) {
+    html { font-size: 10px; }
+    .logo {padding-bottom: 2.7%;}
+    .windows-text {
+        font-size: 11.5rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -2%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 13%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 2%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 13%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 97%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+    .usb-logo {
+        width: 229px;
+        height: 181px;
+        transform: scale(0.77);
+        margin: 0 auto;
+        margin-top: 9%;
+        animation: logo 3s steps(1) infinite;
+        animation-play-state: paused;
+    }
+    .usb-logo:hover {
+        animation-play-state: running;
+    }
+    @keyframes logo {
+        0% {background-image: url('../img/logo2.svg');}
+        10% {background-image: url('../img/logo1.svg');}
+        20% {background-image: url('../img/logo3.svg');}
+        30% {background-image: url('../img/logo4.svg');}
+        40% {background-image: url('../img/logo5.svg');}
+        50% {background-image: url('../img/logo6.svg');}
+        60% {background-image: url('../img/logo7.svg');}
+        70% {background-image: url('../img/logo8.svg');}
+        80% {background-image: url('../img/logo9.svg');}
+        90% {background-image: url('../img/logo10.svg');}
+        100% {background-image: url('../img/logo11.svg');}
+      }
+    .block-grid2 {margin-top: 5%;}
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 3rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 43% 0 0 10%;}
+    .user-id {text-align: center; margin: 13% 0% 0 1%; font-size: 7.5rem; }
+    .text-line-hide {bottom: 35px; font-size: 0.1rem;
+    border-right: 3.5px solid #efefef;}
+    .workspace {height: 1000px;}
+    .items {transform: scale(0.7); margin-top: -7.2%;
+            animation: items-move 7s linear infinite;}
+    @keyframes items-move {
+        0% {left: 400px;}
+        100% {left: -2900px;}
+    }
+    .block-grid2 {margin-top: 0.2%;}
+    .cancel {margin: 2% 37%;}
+    .button-cancel {width: 200px;}
+
+    /* body {background-color: #ff6600;} */
+}
+@media (max-width: 415px) {
+    html { font-size: 6px; }
+    .logo {padding-bottom: 0%;}
+    .windows-text {
+        font-size: 10rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 15.5%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 2%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 15.5%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 98%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+    .usb-logo {
+        width: 229px;
+        height: 181px;
+        transform: scale(0.43);
+        margin-left: -23%;
+        margin-top: -17.5%;
+        animation: logo 3s steps(1) infinite;
+        animation-play-state: paused;
+    }
+    .usb-logo:hover {
+        animation-play-state: running;
+    }
+    @keyframes logo {
+        0% {background-image: url('../img/logo2.svg');}
+        10% {background-image: url('../img/logo1.svg');}
+        20% {background-image: url('../img/logo3.svg');}
+        30% {background-image: url('../img/logo4.svg');}
+        40% {background-image: url('../img/logo5.svg');}
+        50% {background-image: url('../img/logo6.svg');}
+        60% {background-image: url('../img/logo7.svg');}
+        70% {background-image: url('../img/logo8.svg');}
+        80% {background-image: url('../img/logo9.svg');}
+        90% {background-image: url('../img/logo10.svg');}
+        100% {background-image: url('../img/logo11.svg');}
+      }
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 2.5rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 45% 0 0 10%;}
+    .user-id {text-align: center; margin: 10% 0% 0 -4%; font-size: 7rem; }
+    .text-line-hide {padding-top: 13%;  bottom: 21px; font-size: 0.1rem; border-right: 1px solid #efefef;}
+    .workspace {height: 670px;}
+    .workspace {height: 690px;}
+    .cancel{margin: 9% 43%}
+    .items {transform: scale(0.35); margin-top: -28%;
+            animation: items-move 5s linear infinite;}
+    @keyframes items-move {
+        0% {left: -600px;}
+        100% {left: -2150px;}
+    }
+    .block-grid2 {margin-top: 1%;}
+    .cancel {margin: 2% 32%;}
+    .button-cancel {width: 150px;}
+
+    /* body {background-color: #c9d314} */
+}
+@media (max-width: 360px) {
+    html { font-size: 6px; }
+    .logo {padding-bottom: 0%;}
+    .windows-text {
+        font-size: 8.5rem;
+        animation: wallpaper 3s infinite alternate;
+    }
+    .windows-text:hover {
+        animation-play-state: paused;
+        color: #5D5D5D !important;
+        text-shadow: 0 0 10px #ececec50;
+    }
+    @keyframes wallpaper {
+        0% {color: #2030d8;
+            margin-top: -1.5%; margin-left: 2%;
+            animation-timing-function: ease-in;
+            }
+        25% {color: #ff6600;
+            margin-top: 25%; margin-left: 17%;
+            animation-timing-function: ease-in;
+        }
+        50% {color: #1BED6F;
+            margin-top: 50%; margin-left: 2%;
+            animation-timing-function: ease-in;
+        }
+        75% {color: #ba22b3;
+            margin-top: 75%; margin-left: 17%;
+            animation-timing-function: ease-in;
+        }
+        100% {color: #e33131;
+            margin-top: 98%; margin-left: 10%;
+            animation-timing-function: ease-in;
+        }
+    }
+    .usb-logo {
+        width: 229px;
+        height: 181px;
+        transform: scale(0.37);
+        margin-left: -34%;
+        margin-top: -26.5%;
+        animation: logo 3s steps(1) infinite;
+        animation-play-state: paused;
+    }
+    .usb-logo:hover {
+        animation-play-state: running;
+    }
+    @keyframes logo {
+        0% {background-image: url('../img/logo2.svg');}
+        10% {background-image: url('../img/logo1.svg');}
+        20% {background-image: url('../img/logo3.svg');}
+        30% {background-image: url('../img/logo4.svg');}
+        40% {background-image: url('../img/logo5.svg');}
+        50% {background-image: url('../img/logo6.svg');}
+        60% {background-image: url('../img/logo7.svg');}
+        70% {background-image: url('../img/logo8.svg');}
+        80% {background-image: url('../img/logo9.svg');}
+        90% {background-image: url('../img/logo10.svg');}
+        100% {background-image: url('../img/logo11.svg');}
+      }
+    .info-grid {max-width: 97.5%;}
+    .user-text {font-size: 2.5rem; margin: 12% 0 0 4.5%;}
+    .user-logo {max-width: 60%; margin: 38% 0 0 8%;}
+    .user-id {text-align: center; margin: 7% 0% 0 -5%; font-size: 6rem; }
+    .text-line-hide {padding-top: 13%; bottom: 21px; font-size: 0.1rem;
+        border-right: 1px solid #efefef;}
+    .text-line {padding-top: 8%}
+    .workspace {height: 500px;}
+    .cancel{margin: 11% 42%}
+    .items {transform: scale(0.33); margin-top: -35%;
+        animation: items-move 4.5s linear infinite;}
+    @keyframes items-move {
+    0% {left: -600px;}
+    100% {left: -2150px;}
+    }
+    .block-grid2 {margin-top: 0.8%;}
+    .cancel {margin: 2% 33%;}
+    .button-cancel {width: 120px;}
+    
+    /* body {background-color: #ad14d3} */
+}

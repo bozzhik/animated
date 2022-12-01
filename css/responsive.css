@@ -7,6 +7,7 @@
     html { font-size: 13px;}
     .text-hide {bottom: 40px; font-size: 0.7rem;
     border-right: 4px solid #efefef;}
+    h2 {font-size: 8rem;}
 }
 @media (max-width: 768px) {
     html { font-size: 10px; }
